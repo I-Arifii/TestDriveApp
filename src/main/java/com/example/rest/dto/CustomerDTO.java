@@ -2,9 +2,9 @@ package com.example.rest.dto;
 
 import com.example.persitence.domain.Booking;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+//import lombok.AllArgsConstructor;
+//import lombok.Data;
+//import lombok.NoArgsConstructor;
 
 public class CustomerDTO {
 

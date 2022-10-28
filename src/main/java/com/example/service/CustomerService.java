@@ -66,9 +66,9 @@ public class CustomerService {
 	}
 	
 //	public List<CustomerDTO> readByName(String CustomerName){
-//		List<Customer> found = this.repo.customerByName(CustomerName).orElseThrow(CustomerNotFoundException::new);
-//		return found.stream().map(this::mapToDTO).collect(Collectors.toList());
-//	}
+//	List<Customer> found = this.repo.customerById(CustomerId).orElseThrow(CustomerNotFoundException::new);
+//	return found.stream().map(this::mapToDTO).collect(Collectors.toList());
+//}
 
 }
 

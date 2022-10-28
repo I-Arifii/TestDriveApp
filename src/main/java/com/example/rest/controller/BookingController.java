@@ -48,9 +48,9 @@ public class BookingController {
 		return service.readById(id);
 	}
 	
-//	@GetMapping("/bookingByName")
-//	public BookingDTO readByName(@PathParam("name") String name){
-//		return service.readByName(name);
-//	}
+	@GetMapping("/bookingByBrand")
+	public BookingDTO readByBrand(@PathParam("Brand") String brand) {
+		return service.readByBrand(brand);
 
+}
 }

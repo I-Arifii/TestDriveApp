@@ -64,10 +64,10 @@ public class BookingService {
         return this.mapToDTO(found);
     }
 	
-//	public BookingDTO readByName(String name) {
-//		Booking found = this.repo.bookingByName(name).orElseThrow(BookingNotFoundException::new);
-//		return this.mapToDTO(found);
-//	}
+	public BookingDTO readByBrand(String brand) {
+	Booking found = this.repo.bookingByName(brand).orElseThrow(BookingNotFoundException::new);
+	return this.mapToDTO(found);
+	}
 	
 }
 

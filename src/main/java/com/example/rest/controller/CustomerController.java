@@ -46,13 +46,13 @@ public class CustomerController {
 	}
 	
 	@GetMapping("/customerById")
-	public CustomerDTO readMusicianById(@PathParam("id") Long id) {
+	public CustomerDTO readCustomerById(@PathParam("id") Long id) {
 		return service.readById(id);
 	}
 	
 //	@GetMapping("/customerByName")
-//	public List<CustomerDTO> readCustomerByName(@PathParam("name") String name){
-//		return service.readByName(name);
+//	public List<CustomerDTO> readCustomerByName(@PathParam("customerName") String customerName){
+//	return service.readByName(customerName);
 //	}
 
 }
